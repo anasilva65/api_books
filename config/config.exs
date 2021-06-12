@@ -14,7 +14,7 @@ config :books_api,
 # Configures the endpoint
 config :books_api, BooksApiWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "45liGTsLZayjlVthwo3Vo5shW4x/k+dejK4fa5o6m6PymDRzOcxxS+hKteWEnvSd",
+  secret_key_base: "yyyyyyyy",
   render_errors: [view: BooksApiWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: BooksApi.PubSub,
   live_view: [signing_salt: "Qxx1BfqO"]
